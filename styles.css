@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: rubik;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(imagenes/fondo.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+    max-width: 1500px;
+}
+.titulo{
+    text-align: center;
+    margin-top: 10px;
+}
+
+/*Codigo PHP*/
+.texto{
+    width: 500px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, .7);
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 7px;
+    margin-bottom: 200px;
+}
+a{
+    text-decoration: none;
+    color: yellowgreen;
+    font-family: monospace;
+    font-size: 15px;
+}
+/* Formulario */
+
+.form {
+    width: 500px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, .7);
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 7px;
+    margin-bottom: 200px;
+}
+
+.contact {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: monospace;
+}
+
+input,
+textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    font-size: 17px;
+    border: none;
+}
+
+label {
+    color: #fff;
+}
+
+.mensaje {
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 100px;
+    max-height: 100px;
+}
+
+button {
+    width: 49.5%;
+    margin: auto;
+    height: 40px;
+    cursor: pointer;
+    background-color: #051d72;
+    box-shadow: 4px 4px rgba(160, 160, 160, 0.247);
+    border: none;
+    color: #fff;
+    text-decoration: none;
+}
+button:hover{
+    background: rgb(70, 132, 233);
+}
+
